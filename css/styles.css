@@ -3,27 +3,21 @@
     padding: 0;
 }
 
-header {
-    background-color: #333;
-    padding-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+.heroHeader {
+    background-image: url('../img/lego.jpg');
+    background-repeat: repeat;
+    height: 90vh;
 }
 
-.logo {
-    padding: 0;
-    width: 45%;
-    height: 100%;
+.menu {
+    background-color: rgb(46, 44, 44);
+    height: 80px;
 }
 
-a img {
-    padding: 0;
-    width: 45%;
-    height: 100%;
-}
-
-a .menu {
-    width: 45%;
+h1 {
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 85px;
+    margin-left: 40vw;
 }
