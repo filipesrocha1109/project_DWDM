@@ -9,6 +9,21 @@
     margin: 0 auto 0 auto;
 }
 
+.row-2 {
+    text-align: justify;
+}
+
+.section-features {
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.box {
+    padding: 20px;
+}
+
 html {
     background-color: #fff;
     color: #555;
@@ -48,7 +63,6 @@ h4 {
     color: #fff;
     word-spacing: 4px;
     letter-spacing: 1px;
-    
 }
 
 .button {
@@ -72,7 +86,8 @@ h4 {
     color: #11b311;
 }
 
-.button:link, .button:visited {
+.button:link,
+.button:visited {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -80,30 +95,34 @@ h4 {
     border-radius: 200px;
     color: #fff;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-   
 }
 
-.button-full:link, .button-full:visited {
+.button-full:link,
+.button-full:visited {
     background-color: #11b311;
     border: 1px solid #11b311;
     color: #fff;
     margin-right: 15px;
 }
 
-.button-ghost:link, .button-ghost:visited {
+.button-ghost:link,
+.button-ghost:visited {
     border: 1px solid #11b311;
     color: #11b311;
 }
 
-.button:hover, .button:active {
+.button:hover,
+.button:active {
     background-color: #11b31198;
 }
 
-.button-full:hover, .button-full:active {
+.button-full:hover,
+.button-full:active {
     border: 1px solid #11b31198;
 }
 
-.button-ghost:hover, .button-ghost:active {
+.button-ghost:hover,
+.button-ghost:active {
     border: 1px solid #11b31198;
     color: #fff;
 }
@@ -130,7 +149,8 @@ h4 {
     margin-right: 50px;
 }
 
-.main-nav li a:link, .main-nav li a:visited {
+.main-nav li a:link,
+.main-nav li a:visited {
     padding: 8px 0;
     color: #fff;
     text-decoration: none;
@@ -140,6 +160,11 @@ h4 {
     transition: border-bottom 0.2s;
 }
 
-.main-nav li a:hover, .main-nav li a:active {
+.main-nav li a:hover,
+.main-nav li a:active {
     border-bottom: 2px solid #11b311;
+}
+
+.about-of-course {
+    text-align: center;
 }
