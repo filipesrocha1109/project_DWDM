@@ -90,12 +90,14 @@
 
     </section>
     <section class="section-photos " id="galeria">
-        <ul class="about-of-course">
-            <h2>Galeria</h2>
+        <div class="about-of-course col span-3-of-3">
+        <ul >
+            <h2 >Galeria</h2>
             <br><br>
         </ul>
-
-        <ul class="images-showcase">
+    </div>
+    <div class="images-showcase">
+        <ul >
             <li>
                 <figure class="photo">
                     <img src="resources/img/1.png" alt="texto do documento" title="texto do documento" />
@@ -119,6 +121,7 @@
             </li>
 
         </ul>
+    </div>
         <ul class="images-showcase">
             <li>
                 <figure class="photo">
@@ -141,9 +144,47 @@
                 </figure>
             </li>
         </ul>
-ok
-
     </section>
+ 
+    <section class="section-steps">
+        <!--Abrindo a div com a classe ROW para criar um container centralizado,
+          será usando para colocar nosso título  -->
+        <div class="row-3 col span-3-of-3">
+          
+          <!--Título da seção -->
+          <h2>Esperando o quê? &mdash; Bastam 3 passos</h2>
+     
+    </div>
+    <div class="row-4 " >
+        <!-- Conteúdo da coluna da esquerda -->
+        <div class="col span-1-of-2 steps-box ">
+            <!-- Adiciona a imagem da tela de um smarphone com nosso aplicativo aberto -->
+            <img src="resources/img/app-screen.png" alt="Seu pedido pelo iPhone" class="app-screen">
+        </div>
+      
+        <!-- Conteúdo da coluna da direita -->
+        <div class="col span-1-of-2 steps-box">
+            <!-- Container com o primeiro passo -->
+            <div class="step">
+                <div>1</div>
+                <p>Selecione qual plano melhor se encaixa no seu bolso!</p>
+            </div>
+            <!-- Container com o segundo passo -->
+            <div class="step">
+                <div>2</div>
+                <p>Escolha um plano adequado para sua empresa!</p>
+            </div>
+            <!-- Container com o terceiro passo -->
+            <div class="step">
+                <div>3</div>
+                <p>Aguarde apenas 15 minutos e receba todo nosso curso</p>
+                <p> em seu email!</p>
+            </div>
+            <a href="#" class="btn-app"><img src="resources/img/download-app-ios.svg" alt="Botão App Store"></a>
+             <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Botão Play Store"></a>
+        </div>
+      </section>
+
 
 </body>
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js">
