@@ -271,10 +271,11 @@
     
     .row-5 {
         margin: 12%;
+        text-align: center;
     }
     
     .row-5 img {
-        padding: 10px;
+        padding: 15%
     }
     
     .about {
@@ -309,7 +310,8 @@
     }
     
     footer {
-        margin-top: 1450px;
+        
+        margin-top: 270vh;
         background-color: #333;
         padding: 70px;
         font-size: 80%;
