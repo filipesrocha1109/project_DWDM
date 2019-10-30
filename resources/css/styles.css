@@ -13,14 +13,6 @@
         text-align: justify;
     }
     
-    .section-features {
-        height: 80vh;
-        margin-top: 20px;
-        margin-left: 80px;
-        margin-right: 80px;
-        text-align: center;
-    }
-    
     .box {
         padding: 20px;
     }
@@ -172,8 +164,18 @@
         text-align: center;
     }
     
+    .section-features {
+        height: 100vh;
+        margin-top: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+        text-align: center;
+    }
+    
     .section-photos {
-        margin: 6%;
+        height: 50vh;
+        margin-left: 6%;
+        margin-right: 6%;
         padding: 0;
     }
     
@@ -210,8 +212,9 @@
     }
     
     .section-steps {
-        margin: 6%;
-        height: 600px;
+        height: 50vh;
+        margin-left: 6%;
+        margin-right: 6%;
     }
     
     .row-3 {
@@ -265,8 +268,16 @@
         margin-bottom: 80px;
     }
     
+    .section-cities {
+        height: 50vh;
+    }
+    
     .section-cities img {
-        height: 150px;
+        height: 30vh;
+    }
+    
+    .section-testimonials {
+        height: 78vh;
     }
     
     .row-5 {
@@ -310,8 +321,7 @@
     }
     
     footer {
-        
-        margin-top: 270vh;
+        margin-top: 680px;
         background-color: #333;
         padding: 70px;
         font-size: 80%;
