@@ -1,9 +1,29 @@
-@media only screen and (max-width: 1200px) {
-    /*Telas grandes de até 1200px de largura*/
-}
 
-@media only screen and (max-width: 1023px) {
-    /*Pequenos e grandes tablets: largura entre 768px e 1023px*/
+@media only screen and (max-width: 1025px) {
+    
+
+    header{
+        width: 100%;
+        padding: 0;
+    }
+    .hero-text-box {
+        margin-left: 60px;
+       
+    }
+    .row-5 .col {
+        width: 17vw;
+        margin: 0px;
+    }
+    .row-5 .col img {
+        
+        
+        width: 190px;
+    }
+    footer{
+        margin-top: 160vh;
+    }
+  
+  
 }
 
 @media only screen and (max-width: 767px) {
